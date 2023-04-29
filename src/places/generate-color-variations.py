@@ -15,12 +15,14 @@ VARIANTS.append({"name":"Green","folder":"50c16f","backfolder":"1f953f","paper":
 VARIANTS.append({"name":"Sand","folder":"f9c470","backfolder":"e0a84f","paper":"e4e4e4","line":"f9c470","emblem":"4a4a4a"})
 VARIANTS.append({"name":"Grey","folder":"aaaaaa","backfolder":"727272","paper":"ffffff","line":"aaaaaa","emblem":"4f4f4f"})
 VARIANTS.append({"name":"Orange","folder":"ff804f","backfolder":"f2632a","paper":"e4e4e4","line":"ff804f","emblem":"4a4a4a"})
-VARIANTS.append({"name": "Red","folder":"f54f54","backfolder":"ca0f14","paper":"e4e4e4","line":"f54f54","emblem":"4d1c1c"})
+VARIANTS.append({"name":"Red","folder":"f54f54","backfolder":"ca0f14","paper":"e4e4e4","line":"f54f54","emblem":"4d1c1c"})
 VARIANTS.append({"name":"Pink","folder":"f26a9a","backfolder":"cf2f67","paper":"e4e4e4","line":"f26a9a","emblem":"542233"})
 VARIANTS.append({"name":"Purple","folder":"a27ae4","backfolder":"7240c3","paper":"e4e4e4","line":"a27ae4","emblem":"2c1e44"})
 VARIANTS.append({"name":"Cyan","folder":"00bcd4","backfolder":"0096aa","paper":"e4e4e4","line":"00bcd4","emblem":"00424a"})
 VARIANTS.append({"name":"Navy","folder":"b8d8eb","backfolder":"004988","paper":"f4f4f4","line":"b8d8eb","emblem":"081f2d"})
 VARIANTS.append({"name":"Yaru","folder":"676767","backfolder":"973552","paper":"ff7446","line":"676767","emblem":"e4e4e4"})
+VARIANTS.append({"name":"Yaru-Gecko","folder":"676767","backfolder":"73ba25","paper":"b9dc92","line":"676767","emblem":"efefef"})
+
 
 for filename in os.listdir("."):
     if filename.endswith(".svg"):
